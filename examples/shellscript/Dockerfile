@@ -1,0 +1,5 @@
+FROM ubuntu:14.04
+
+ENV INPUT_X 5
+ENV INPUT_Y 6
+CMD echo $INPUT_X + $INPUT_Y = $(($INPUT_X+$INPUT_Y))
