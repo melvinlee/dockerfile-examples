@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ADD add.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/add.sh
+ADD add /usr/local/bin/
+RUN chmod +x /usr/local/bin/add
 
-ENTRYPOINT ["./usr/local/bin/add.sh"]
+ENTRYPOINT ["add"]
